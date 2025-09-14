@@ -48,7 +48,6 @@ app:
   env:
     - name: SOME_ENV_VAR_NAME
       value: some_env_var_value
-
   variables:
     - name: fake_cert
       value: |
