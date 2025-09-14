@@ -52,8 +52,8 @@ app:
   # Reference the variables in the server.xml using the 
   # ${some_liberty_variable_name} notation.
   variables:
-    - name: some_liberty_variable_name
-      value: some_liberty_variable_value
+    - name: WLP_LOGGING_CONSOLE_LOGLEVEL
+      value: INFO
       
   # Set a list of the system properties for the Java runtime.
   systemProperties:
