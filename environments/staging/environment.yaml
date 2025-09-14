@@ -68,6 +68,7 @@ app:
     #    kEjnZSWi
     #    -----END CERTIFICATE-----
   # Set a list of the system properties for the Java runtime.
+  
   systemProperties:
     - name: some_system_property_name
       value: some_system_property_value
