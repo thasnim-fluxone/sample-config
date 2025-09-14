@@ -55,12 +55,12 @@ app:
     - name: WLP_LOGGING_CONSOLE_LOGLEVEL
       value: INFO
     - name: fake_cert
-      value: >
-      -----BEGIN CERTIFICATE-----
-      MIIF0jCCA7qgAwIBAgIUHrVXdkOWiwoYO96Tl23+O+DL2IMwDQYJKoZIhvcNAQEL
-      4+EMv51NHTm5NE8sKTGaJA/ZrsMV6KUlx90oI8NaEpoba5Tkv9u4OAii9uYUFmC3
-      kEjnZSWi
-      -----END CERTIFICATE-----
+      value:  |
+        -----BEGIN CERTIFICATE-----
+        MIIF0jCCA7qgAwIBAgIUHrVXdkOWiwoYO96Tl23+O+DL2IMwDQYJKoZIhvcNAQEL
+        4+EMv51NHTm5NE8sKTGaJA/ZrsMV6KUlx90oI8NaEpoba5Tkv9u4OAii9uYUFmC3
+        kEjnZSWi
+        -----END CERTIFICATE-----
       
   # Set a list of the system properties for the Java runtime.
   systemProperties:
