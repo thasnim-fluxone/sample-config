@@ -48,16 +48,13 @@ app:
     - name: SOME_ENV_VAR_NAME
       value: some_env_var_value
 
-  # Set a list of Liberty variables for the application. 
-  # Reference the variables in the server.xml using the 
-  # ${some_liberty_variable_name} notation.
   variables:
-    - name: WLP_LOGGING_CONSOLE_LOGLEVEL
-      value: INFO
     - name: fake_cert
-      value: |-
+      value: |
         Onevalue
         Anothervalue
+    - name: WLP_LOGGING_CONSOLE_LOGLEVEL
+      value: INFO
     #    -----BEGIN CERTIFICATE-----
     #    MIIF0jCCA7qgAwIBAgIUHrVXdkOWiwoYO96Tl23+O+DL2IMwDQYJKoZIhvcNAQEL
     #    4+EMv51NHTm5NE8sKTGaJA/ZrsMV6KUlx90oI8NaEpoba5Tkv9u4OAii9uYUFmC3
