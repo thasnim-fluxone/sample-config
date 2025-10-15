@@ -72,6 +72,7 @@ app:
     - name: some_system_property_name
       value: some_system_property_value
 
+  
   # Enable a public endpoint for the application. If not set, the application
   # is only available on an internal endpoint accessible to other applications
   # within a subscription.
