@@ -81,7 +81,7 @@ app:
   # 17 for IBM Semeru 17, or 21 for IBM Semeru 21. If not set, the service
   # tries to automatically detect the Java version for the application. If the
   # service is unable to detect the Java runtime, it defaults to Java 17.
-  java: 8
+  java: 21
   
   # Set the name of the custom domain for the application.
   #host: my_custom_domain.io
