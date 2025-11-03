@@ -48,7 +48,7 @@ app:
   env:
     - name: SOME_ENV_VAR_NAME
       value: some_env_var_value
-  variables:
+  # variables:
     # - name: FAKE_CERT
     #   # value: "anyvalue"
     #   value: |
@@ -65,11 +65,11 @@ app:
     #     XIxFyjPkq8Y5n6cNJdvYk/AS08jJVd5Mtuw3BebtBkxWFdtApv+cLyUL8hF57rZF
     #     zhtG61ishjdFbTn2o1s//GkbW4FJYzmYnHABvmRjmBLCZlYlRaaw9sc=
     #     -----END RSA PRIVATE KEY-----
-    - name: WLP_LOGGING_CONSOLE_LOGLEVEL
-      value: INFO
-  systemProperties:
-    - name: some_system_property_name
-      value: some_system_property_value
+    # - name: WLP_LOGGING_CONSOLE_LOGLEVEL
+    #   value: INFO
+  # systemProperties:
+  #   - name: some_system_property_name
+  #     value: some_system_property_value
 
   
   # Enable a public endpoint for the application. If not set, the application
@@ -81,7 +81,7 @@ app:
   # 17 for IBM Semeru 17, or 21 for IBM Semeru 21. If not set, the service
   # tries to automatically detect the Java version for the application. If the
   # service is unable to detect the Java runtime, it defaults to Java 17.
-  java: 21
+  java: 8
   
   # Set the name of the custom domain for the application.
   #host: my_custom_domain.io
