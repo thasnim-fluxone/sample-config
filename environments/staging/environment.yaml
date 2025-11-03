@@ -46,8 +46,8 @@ app:
   # are ignored. Reference the environment variables in the server.xml using
   # the ${SOME_ENV_VAR_NAME} notation.
   env:
-    # - name: SOME_ENV_VAR_NAME
-      # value: some_env_var_value
+    - name: SOME_ENV_VAR_NAME
+      value: some_env_var_value
   variables:
     # - name: FAKE_CERT
     #   # value: "anyvalue"
@@ -65,11 +65,11 @@ app:
     #     XIxFyjPkq8Y5n6cNJdvYk/AS08jJVd5Mtuw3BebtBkxWFdtApv+cLyUL8hF57rZF
     #     zhtG61ishjdFbTn2o1s//GkbW4FJYzmYnHABvmRjmBLCZlYlRaaw9sc=
     #     -----END RSA PRIVATE KEY-----
-    # - name: WLP_LOGGING_CONSOLE_LOGLEVEL
-    #   value: INFO
+    - name: WLP_LOGGING_CONSOLE_LOGLEVEL
+      value: INFO
   systemProperties:
-  #   - name: some_system_property_name
-  #     value: some_system_property_value
+    - name: some_system_property_name
+      value: some_system_property_value
 
   
   # Enable a public endpoint for the application. If not set, the application
